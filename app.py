@@ -58,7 +58,7 @@ def plot_directions_on_map(maneuvers):
     if not maneuvers:
         st.warning("Directions not available.")
     
-    # Create a Folium map centered around the first maneuver's start location
+    # Create a Folium map centered around the first maneuver's start location!
     map_center = [maneuvers[0]["startPoint"]["lat"], maneuvers[0]["startPoint"]["lng"]]
     folium_map = folium.Map(location=map_center, zoom_start=13)
 
