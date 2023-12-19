@@ -9,8 +9,5 @@ The **MapQuest Explorer** project is a web application that leverages the MapQue
 - Agpaoa
 
 # Tech Stack
-- Python
+- Python StreamLit
 - API (MapQuest)
-- HTML
-- CSS
-- JavaScript
